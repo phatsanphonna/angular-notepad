@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'notepad';
+  fontSize = { 'font-size': 'medium' }
+
+  setTextSize(size: string) {
+    this.fontSize['font-size'] = size
+  }
 }

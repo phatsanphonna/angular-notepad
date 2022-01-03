@@ -1,0 +1,23 @@
+main {
+  padding: 20px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+main > * {
+  margin: 10px 0px;
+}
+
+.btn-size {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-size button {
+  width: 200px;
+  margin: 8px;
+}
