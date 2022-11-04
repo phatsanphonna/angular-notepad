@@ -3,12 +3,12 @@
 
   <div class="container">
     <main>
-      <div class="btn-size">
-        <button class="btn btn-primary" (click)="setTextSize('small')">ตัวเล็ก</button>
-        <button class="btn btn-primary" (click)="setTextSize('medium')">ตัวปกติ</button>
-        <button class="btn btn-primary" (click)="setTextSize('large')">ตัวใหญ่</button>
+      <div class="file-upload">
+        <input type="file">
+        <button class="btn btn-success">Upload</button>
       </div>
-      <textarea rows="4" cols="200" class="form-control" [ngStyle]="fontSize"></textarea>
+      <textarea rows="4" cols="200" class="form-control" [ngStyle]="fontSize">
+      </textarea>
     </main>
   </div>
 </div>
